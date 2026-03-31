@@ -1,3 +1,3 @@
-# Welcome to your Lovable project
+Portfolio de Emily Giuliana Scher
 
-TODO: Document your project here
+
