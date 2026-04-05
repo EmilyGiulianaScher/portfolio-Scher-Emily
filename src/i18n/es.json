@@ -1,0 +1,76 @@
+{
+  "header": {
+    "nav": {
+      "home": "Inicio",
+      "about": "Sobre Mí",
+      "projects": "Proyectos",
+      "contact": "Contacto"
+    }
+  },
+  "hero": {
+    "portfolio": "Portfolio",
+    "name": "Emily Giuliana Scher",
+    "role": "Desarrolladora Frontend | UX Developer",
+    "tagline": "Construyo arquitecturas escalables. Diseño experiencias intuitivas.",
+    "description": "Con más de 2 años de experiencia, creo productos digitales donde la eficiencia del código y la usabilidad se encuentran. Transformo ideas complejas en soluciones web rápidas, modulares y orientadas a resultados.",
+    "cta": "Ver mis proyectos",
+    "downloadCv": "Descargar CV",
+    "cvEs": "Versión Español",
+    "cvEn": "English Version"
+  },
+  "about": {
+    "subtitle": "Sobre Mí",
+    "title": "Desarrollo frontend con visión de producto",
+    "p1": "Soy de Corrientes, Argentina. Combino mi experiencia en entornos corporativos, proyectos freelance y el desarrollo de productos desde cero para construir soluciones que equilibren las necesidades del negocio con una experiencia fluida. Mi stack actual se centra en ecosistemas modernos como Next.js, React y TypeScript, apoyado en Tailwind CSS. Me apasiona la arquitectura limpia: diseño componentes modulares, implemento sistemas escalables y mantengo un código que sea sencillo mantener.",
+    "p2": "Más allá del editor de código, curso Licenciatura en Sistemas de la Información para seguir fortaleciendo mis bases analíticas. Para recargar energías lejos de la pantalla, divido mi tiempo entre entrenar o relajarme cocinando. Creo firmemente que las mejores ideas técnicas nacen cuando logramos un buen equilibrio fuera del teclado."
+  },
+  "projects": {
+    "subtitle": "Proyectos",
+    "title": "Trabajos seleccionados",
+    "items": {
+      "stocknow": {
+        "title": "StockNow",
+        "description": "Sistema multi-tenant de gestión comercial y punto de venta. Desarrollado con Next.js 15 (App Router), Supabase y Tailwind CSS.",
+        "ux": "Arquitectura frontend modular y dashboard interactivo (shadcn/ui). Interfaz optimizada para el consumo de datos en tiempo real y navegación basada en roles (RBAC)."
+      },
+      "frizaditas": {
+        "title": "Frizaditas",
+        "description": "Plataforma e-commerce y catálogo digital interactivo a medida para el sector gastronómico.",
+        "ux": "Diseño UI/UX orientado a la conversión. Flujo de compra optimizado para reducir la fricción cognitiva, maximizando la retención en dispositivos móviles."
+      },
+      "syslab": {
+        "title": "Syslab Demo",
+        "description": "Prueba de concepto (PoC) de un catálogo online dinámico para exhibición y gestión de productos.",
+        "ux": "Implementación de un sistema de diseño temático. Arquitectura de la información clara que prioriza la jerarquía visual para una navegación fluida."
+      },
+      "bona": {
+        "title": "Bona Budín",
+        "description": "E-commerce de productos artesanales con integración de carrito dinámico y checkout optimizado vía WhatsApp.",
+        "ux": "Enfoque mobile-first. Interfaz limpia e intuitiva que reduce los pasos técnicos del usuario y facilita el proceso de compra de principio a fin."
+      }
+    },
+    "imagePlaceholder": "Imagen del proyecto",
+    "uxLabel": "Enfoque UX: ",
+    "visitLink": "Visitar sitio web"
+  },
+  "contact": {
+    "subtitle": "Contacto",
+    "title": "¿Trabajamos juntos?",
+    "description": "Ya sea para un proyecto freelance, una oportunidad en tu equipo o simplemente para charlar sobre código y diseño, me encantaría leerte.",
+    "form": {
+      "name": "Nombre",
+      "namePlaceholder": "Tu nombre",
+      "email": "Email",
+      "emailPlaceholder": "tu@email.com",
+      "message": "Mensaje",
+      "messagePlaceholder": "Contame en qué puedo ayudarte...",
+      "submit": "Enviar mensaje",
+      "sending": "Enviando..."
+    },
+    "success": "¡Mensaje enviado! Te respondo pronto.",
+    "error": "Algo salió mal. Intentá de nuevo."
+  },
+  "footer": {
+    "credits": "Diseñado y desarrollado por Emily Giuliana Scher © 2026"
+  }
+}

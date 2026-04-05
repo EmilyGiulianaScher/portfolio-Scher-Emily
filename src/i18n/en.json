@@ -1,0 +1,76 @@
+{
+  "header": {
+    "nav": {
+      "home": "Home",
+      "about": "About Me",
+      "projects": "Projects",
+      "contact": "Contact"
+    }
+  },
+  "hero": {
+    "portfolio": "Portfolio",
+    "name": "Emily Giuliana Scher",
+    "role": "Frontend Developer | UX Developer",
+    "tagline": "I build scalable architectures. I design intuitive experiences.",
+    "description": "With over 2 years of experience, I create digital products where code efficiency meets usability. I transform complex ideas into fast, modular, and result-oriented web solutions.",
+    "cta": "View my projects",
+    "downloadCv": "Download CV",
+    "cvEs": "Spanish Version",
+    "cvEn": "English Version"
+  },
+  "about": {
+    "subtitle": "About Me",
+    "title": "Frontend developer with a product vision",
+    "p1": "I am a Frontend Developer based in Corrientes. I combine my experience in corporate environments, freelance projects, and building products from scratch to create solutions that balance business needs with a seamless experience. My current stack focuses on modern ecosystems like Next.js, React, and TypeScript, backed by Tailwind CSS. I am passionate about clean architecture: I design modular components, implement scalable systems, and maintain code that is a pleasure to read and maintain.",
+    "p2": "Beyond the code editor, I am pursuing a Bachelor's Degree in Information Systems to further strengthen my analytical foundations. To recharge away from the screen, I split my time between working out, taking care of my cat Manchita, maintaining my indoor plant ecosystem (there's always room for one more lavender or basil), or relaxing by cooking. I firmly believe that the best technical ideas are born when we achieve a good balance away from the keyboard."
+  },
+  "projects": {
+    "subtitle": "Projects",
+    "title": "Selected Works",
+    "items": {
+      "stocknow": {
+        "title": "StockNow",
+        "description": "Multi-tenant commercial management and POS system. Built with Next.js 15 (App Router), Supabase, and Tailwind CSS.",
+        "ux": "Modular frontend architecture and interactive dashboard (shadcn/ui). Interface optimized for real-time data consumption and Role-Based Access Control (RBAC) navigation."
+      },
+      "frizaditas": {
+        "title": "Frizaditas",
+        "description": "Custom e-commerce platform and interactive digital catalog for the gastronomic sector.",
+        "ux": "Conversion-oriented UI/UX design. Optimized checkout flow to reduce cognitive friction, maximizing mobile retention."
+      },
+      "syslab": {
+        "title": "Syslab Demo",
+        "description": "Proof of Concept (PoC) for a dynamic online catalog for product display and management.",
+        "ux": "Implementation of a thematic design system. Clear information architecture that prioritizes visual hierarchy for seamless navigation."
+      },
+      "bona": {
+        "title": "Bona Budín",
+        "description": "Artisanal product e-commerce with dynamic cart integration and optimized WhatsApp checkout.",
+        "ux": "Mobile-first approach. Clean and intuitive interface that minimizes technical steps for the user and streamlines the end-to-end shopping process."
+      }
+    },
+    "imagePlaceholder": "Project image",
+    "uxLabel": "UX Focus: ",
+    "visitLink": "Visit website"
+  },
+  "contact": {
+    "subtitle": "Contact",
+    "title": "Let's work together",
+    "description": "Whether it's for a freelance project, an opportunity on your team, or just to chat about code and design, I'd love to hear from you.",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "you@email.com",
+      "message": "Message",
+      "messagePlaceholder": "Tell me how I can help you...",
+      "submit": "Send message",
+      "sending": "Sending..."
+    },
+    "success": "Message sent! I'll get back to you soon.",
+    "error": "Something went wrong. Please try again."
+  },
+  "footer": {
+    "credits": "Designed & Developed by Emily Giuliana Scher © 2026"
+  }
+}
