@@ -123,6 +123,10 @@
     "title": "Contacto",
     "lead": "Estoy disponible para sumarme a equipos remotos como desarrolladora frontend. Si desea conocer más sobre mi trabajo o conversar sobre una oportunidad o un proyecto, puede escribirme: será un gusto responder.",
     "emailLabel": "Email",
+    "availability": "Disponibilidad",
+    "availabilityValue": "Tiempo completo",
+    "timezone": "Zona horaria",
+    "timezoneValue": "Horario de Argentina",
     "profilesLabel": "Perfiles"
   },
   "CopyEmail": {

@@ -1,4 +1,4 @@
-import { Mail } from "lucide-react";
+import { Clock, Globe, Mail } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa6";
 import { siteConfig } from "@/content/site";
@@ -7,6 +7,11 @@ import { ExternalLink } from "./external-link";
 import { Section } from "./section";
 import { buttonVariants } from "./ui/button";
 
+const DETAILS = [
+  { label: "availability", value: "availabilityValue", Icon: Clock },
+  { label: "timezone", value: "timezoneValue", Icon: Globe },
+] as const;
+
 export function Contact() {
   const t = useTranslations("Contact");
   const { github, linkedin } = siteConfig.links;
@@ -14,7 +19,18 @@ export function Contact() {
   return (
     <Section id="contacto" title={t("title")} tone="hero">
       <div className="mt-8 grid gap-10 lg:grid-cols-12">
-        <p className="text-lead max-w-prose lg:col-span-5">{t("lead")}</p>
+        <div className="lg:col-span-5">
+          <p className="text-lead max-w-prose">{t("lead")}</p>
+          <dl className="mt-6 space-y-3 text-sm">
+            {DETAILS.map(({ label, value, Icon }) => (
+              <div key={label} className="flex items-center gap-3">
+                <Icon aria-hidden="true" className="size-4 shrink-0" />
+                <dt className="font-medium">{t(label)}:</dt>
+                <dd>{t(value)}</dd>
+              </div>
+            ))}
+          </dl>
+        </div>
 
         <div className="lg:col-span-6 lg:col-start-7">
           <p className="flex items-center gap-2 text-sm font-medium">

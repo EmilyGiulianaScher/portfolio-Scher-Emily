@@ -123,6 +123,10 @@
     "title": "Contact",
     "lead": "I’m available to join remote teams as a frontend developer. If you would like to learn more about my work or discuss an opportunity or a project, please get in touch. I would be glad to hear from you.",
     "emailLabel": "Email",
+    "availability": "Availability",
+    "availabilityValue": "Full time",
+    "timezone": "Time zone",
+    "timezoneValue": "Argentina time",
     "profilesLabel": "Profiles"
   },
   "CopyEmail": {
