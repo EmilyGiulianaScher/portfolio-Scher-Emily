@@ -1,0 +1,196 @@
+{
+  "Metadata": {
+    "title": "Emily Giuliana Scher | Frontend Developer",
+    "description": "Portfolio of Emily Giuliana Scher, a frontend developer specialized in React and TypeScript. Projects, experience and contact."
+  },
+  "Common": {
+    "opensInNewTab": "opens in a new tab"
+  },
+  "Header": {
+    "skip": "Skip to content",
+    "mainNav": "Main",
+    "nav": {
+      "projects": "Projects",
+      "experience": "Experience",
+      "about": "About",
+      "skills": "Skills",
+      "contact": "Contact"
+    },
+    "language": "Language",
+    "themeToDark": "Switch to dark mode",
+    "themeToLight": "Switch to light mode",
+    "themeGeneric": "Switch theme"
+  },
+  "Hero": {
+    "role": "Frontend developer. I turn Figma designs into accessible, reusable React and TypeScript components.",
+    "location": "Corrientes, Argentina. Fluent English. Open to remote work.",
+    "cv": "Download CV",
+    "cvOther": "CV in Spanish",
+    "photoAlt": "Portrait of Emily Giuliana Scher smiling"
+  },
+  "Projects": {
+    "title": "Projects",
+    "intro": "One product of my own and two sites for local businesses in Corrientes.",
+    "problem": "Problem",
+    "role": "My role",
+    "stack": "Stack",
+    "source": "Source code",
+    "items": {
+      "stocknow": {
+        "name": "StockNow",
+        "summary": "Inventory and point-of-sale app for small businesses, designed for food venues, with an optional online catalog. The link goes to the public StockNow page.",
+        "problem": "Keeping track of a shop’s stock and charging customers quickly: products are loaded with their stock and description, combos can be set up, sales are charged from the cart and a receipt is generated.",
+        "role": "Co-founder and frontend developer. Modular architecture in Next.js, interface built with Tailwind CSS, data with Supabase (PostgreSQL and Auth) and views that depend on each user’s role (RBAC).",
+        "imageAlt": "StockNow page with a phone showing the product list with stock and prices",
+        "visit": "View the public page"
+      },
+      "bonaBudin": {
+        "name": "Bona Budín",
+        "summary": "Online shop for a handmade loaf cake brand from Corrientes. Customers build an order in a cart and send it through WhatsApp.",
+        "problem": "Choosing size and quantity from a phone and closing the order on the channel customers already use: WhatsApp.",
+        "role": "I built the frontend: catalog, cart and sending the order through WhatsApp. The backend runs on Google AppSheet, where the products are managed.",
+        "imageAlt": "Bona Budín catalog with loaf cakes, their sizes and prices, and an add-to-cart button",
+        "visit": "Visit site"
+      },
+      "carpinteria": {
+        "name": "Carpintería San José",
+        "summary": "Online catalog for a woodworking shop in Corrientes, with products by category and direct contact through WhatsApp.",
+        "problem": "Showing the shop’s products in a place of its own and making it easy for customers to ask through WhatsApp.",
+        "role": "I built the frontend, in a repository of my own: products by category, search and contact through WhatsApp. The backend runs on Google AppSheet, where the products are managed.",
+        "imageAlt": "Carpintería San José catalog with wooden furniture filterable by category",
+        "visit": "Visit site"
+      }
+    }
+  },
+  "Experience": {
+    "title": "Experience",
+    "present": "Present",
+    "items": {
+      "stocknow": {
+        "role": "Co-founder and frontend developer",
+        "place": "Corrientes, Argentina",
+        "b1": "I lead the frontend with Next.js 15 (App Router) and React, organized into modular components.",
+        "b2": "I designed and built a responsive interface with Tailwind CSS.",
+        "b3": "I consume data from Supabase (PostgreSQL and Auth) and manage global state with Context API, rendering the interface according to each role’s permissions (RBAC)."
+      },
+      "makingSense": {
+        "role": "UX / Frontend Developer",
+        "place": "Mar del Plata, Argentina (remote)",
+        "b1": "I built accessible, reusable components in React and TypeScript from Figma designs, for a veterinary services platform.",
+        "b2": "I maintained the design system and led its Storybook documentation, working in an agile process tracked in Jira.",
+        "b3": "I implemented a strict component architecture and updated the previous component library."
+      },
+      "freelance": {
+        "role": "Frontend web developer",
+        "place": "Private clients",
+        "b1": "I built online shops and catalogs with shopping carts.",
+        "b2": "I developed digital invitations as single-page apps, with forms, RSVP and date scheduling.",
+        "b3": "I handed over documented projects so that each client could manage them on their own."
+      }
+    },
+    "caseStudy": "Read the case study"
+  },
+  "About": {
+    "title": "About me",
+    "p1": "I’m Emily, a frontend developer based in Corrientes, Argentina. I turn Figma designs into accessible, reusable interfaces with React and TypeScript, working closely with design teams.",
+    "facts": {
+      "location": "Location",
+      "locationValue": "Corrientes, Argentina. Working remotely.",
+      "studies": "Studies",
+      "studiesValue": "Information Systems degree, UNNE (in progress)."
+    }
+  },
+  "Skills": {
+    "title": "Skills",
+    "groups": {
+      "frontend": "Frontend",
+      "data": "State and data",
+      "styles": "Styling and design",
+      "tools": "Tools",
+      "languages": "Languages"
+    },
+    "items": {
+      "htmlCss": "Semantic HTML and CSS",
+      "a11y": "Web accessibility",
+      "restApis": "REST API integration",
+      "designSystems": "Design systems",
+      "spanish": "Spanish (native)",
+      "english": "English (fluent)",
+      "portuguese": "Portuguese (basic)"
+    }
+  },
+  "Contact": {
+    "title": "Contact",
+    "lead": "I’m available to join remote teams as a frontend developer. If you would like to learn more about my work or discuss an opportunity or a project, please get in touch. I would be glad to hear from you.",
+    "emailLabel": "Email",
+    "availability": "Availability",
+    "availabilityValue": "Full time",
+    "timezone": "Time zone",
+    "timezoneValue": "Argentina time",
+    "profilesLabel": "Profiles"
+  },
+  "CopyEmail": {
+    "copy": "Copy email",
+    "copied": "Email copied",
+    "error": "Could not copy. Click the email to open it in your mail app.",
+    "noscript": "Turn on JavaScript to see the email, or message me on LinkedIn."
+  },
+  "Footer": {
+    "credits": "Designed and built by Emily Giuliana Scher.",
+    "system": "Visual system"
+  },
+  "CaseStudy": {
+    "metaTitle": "Making Sense design system | Emily Giuliana Scher",
+    "back": "Back to experience",
+    "title": "Making Sense design system",
+    "lead": "A library of accessible, reusable components for a veterinary services platform, documented in Storybook.",
+    "contextTitle": "Context",
+    "context": "Making Sense is a company based in Mar del Plata. Between February and July 2025 I worked with their team remotely, from Corrientes, on a veterinary services platform.",
+    "roleTitle": "My role",
+    "role": "UX / Frontend Developer, working in an agile process with tasks tracked in Jira.",
+    "didTitle": "What I did",
+    "d1": "I built accessible, reusable components in React and TypeScript from the Figma designs.",
+    "d2": "I maintained the design system in Storybook.",
+    "d3": "I led the Storybook documentation, meant to make onboarding new developers and maintenance easier.",
+    "d4": "I implemented a strict component architecture.",
+    "d5": "I updated the previous component library to the new system.",
+    "noteTitle": "What I can’t show",
+    "note": "I can’t show the code or the product’s screens. If you’d like to know more about this work, get in touch."
+  },
+  "NotFound": {
+    "title": "Page not found",
+    "description": "This address does not exist or has been moved.",
+    "back": "Back to home"
+  },
+  "Sistema": {
+    "metaTitle": "Visual system | Emily Giuliana Scher",
+    "title": "Visual system",
+    "intro": "Color, typography and base components of this portfolio. Contrast ratios are computed from the same values the site uses.",
+    "colorTitle": "Color and contrast",
+    "themeLight": "Light theme",
+    "themeDark": "Dark theme",
+    "tableCaption": "Contrast in the {theme}",
+    "colPair": "Pair",
+    "colRatio": "Ratio",
+    "rows": {
+      "text": "Body text",
+      "textMuted": "Secondary text",
+      "accent": "Links and accent",
+      "onAccent": "Text on accent",
+      "hero": "Hero text",
+      "focus": "Focus on background",
+      "border": "Control border"
+    },
+    "typographyTitle": "Typography",
+    "typographyIntro": "Newsreader for headings and Schibsted Grotesk for text and interface.",
+    "sampleTitle": "Section title",
+    "sampleHeading": "Project heading",
+    "sampleLead": "Lead text: a short sentence that introduces what comes next.",
+    "sampleBody": "Body text. Lines stay under 70 characters to keep reading comfortable, with a line height of 1.65.",
+    "componentsTitle": "Links and buttons",
+    "buttonPrimary": "View projects",
+    "buttonSecondary": "Download CV",
+    "link": "Text link",
+    "focusHint": "Press Tab to see the focus ring on each element."
+  }
+}

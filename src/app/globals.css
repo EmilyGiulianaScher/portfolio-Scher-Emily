@@ -1,0 +1,144 @@
+@import "tailwindcss";
+
+/*
+ * Tokens de diseño. Fuente única de verdad para color: los tests (src/lib/contrast.test.ts)
+ * leen este archivo y verifican contraste WCAG AA en ambos temas.
+ *
+ * Paleta inspirada en el lapacho rosado del litoral argentino: petalo, follaje y flor.
+ * El tema oscuro se activa con data-theme="dark" en <html>, que fija next-themes.
+ */
+:root {
+  color-scheme: light;
+
+  --background: #fcf6f6; /* Pétalo */
+  --foreground: #1b2a23; /* Monte */
+  --surface: #f6e7ea; /* Pétalo hondo */
+  --muted-foreground: #4b5e54; /* Hoja */
+  --primary: #a3205e; /* Lapacho */
+  --primary-foreground: #fff8f9;
+  --border: #c9a9b1;
+  --border-strong: #8a6672;
+  --ring: #a3205e;
+  --hero: #edbfcd; /* Rosa de hero */
+  --hero-foreground: #1b2a23;
+
+  --radius: 0.25rem;
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+
+  --background: #101a15;
+  --foreground: #f8ebee;
+  --surface: #18251e;
+  --muted-foreground: #b4c3ba;
+  --primary: #f08bb4;
+  --primary-foreground: #101a15;
+  --border: #2e4439;
+  --border-strong: #6e8a7b;
+  --ring: #f08bb4;
+  --hero: #1c3429;
+  --hero-foreground: #f6c9d6;
+}
+
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
+  --color-ring: var(--ring);
+  --color-hero: var(--hero);
+  --color-hero-foreground: var(--hero-foreground);
+
+  --radius-sm: var(--radius);
+  --radius-md: calc(var(--radius) * 2);
+
+  --font-sans: var(--font-schibsted), system-ui, sans-serif;
+  --font-serif: var(--font-newsreader), Georgia, serif;
+
+  /* Escala tipografica. Newsreader ajusta su dibujo al tamaño (eje opsz). */
+  --text-display: clamp(2.75rem, 6.5vw, 5rem);
+  --text-display--line-height: 0.92;
+  --text-display--letter-spacing: -0.035em;
+  --text-title: clamp(2rem, 4vw, 3rem);
+  --text-title--line-height: 1.05;
+  --text-title--letter-spacing: -0.02em;
+  --text-heading: 1.5rem;
+  --text-heading--line-height: 1.2;
+  --text-heading--letter-spacing: -0.01em;
+  --text-lead: 1.3125rem;
+  --text-lead--line-height: 1.55;
+}
+
+@layer base {
+  html {
+    background: var(--background);
+  }
+
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans);
+    font-size: 1.0625rem;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-serif);
+    font-weight: 400;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  /* Evita la demora de doble toque en celulares para enlaces y botones. */
+  a,
+  button {
+    touch-action: manipulation;
+  }
+
+  ::selection {
+    background: var(--primary);
+    color: var(--primary-foreground);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+}
+
+/*
+ * Movimiento: por defecto todo es estatico. La animacion de entrada del hero y el scroll suave
+ * solo existen para quien no pidio reducir el movimiento.
+ */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .rise-word {
+    transform: translateY(105%);
+    animation: rise 900ms cubic-bezier(0.2, 0.7, 0.1, 1) forwards;
+    animation-delay: calc(120ms + var(--i, 0) * 110ms);
+  }
+
+  @keyframes rise {
+    to {
+      transform: translateY(0);
+    }
+  }
+}
