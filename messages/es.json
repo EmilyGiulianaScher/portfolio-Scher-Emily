@@ -57,7 +57,7 @@
         "summary": "Catálogo online de una carpintería de Corrientes, con productos por categoría y contacto directo por WhatsApp.",
         "problem": "Mostrar los productos del taller en un lugar propio y facilitar que los clientes consulten por WhatsApp.",
         "role": "Desarrollé el frontend, con repositorio propio: productos por categoría, buscador y contacto por WhatsApp. El backend está en AppSheet de Google, donde se gestionan los productos.",
-        "imageAlt": "Catálogo de Carpintería San José con muebles de madera filtrables por categoría",
+        "imageAlt": "Portada de Carpintería San José con el título Muebles de madera hechos a medida y un escritorio de madera",
         "visit": "Ver sitio"
       }
     }

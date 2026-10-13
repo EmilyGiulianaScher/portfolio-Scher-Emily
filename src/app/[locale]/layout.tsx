@@ -33,12 +33,9 @@ type Props = {
   params: Promise<{ locale: string }>;
 };
 
-// El color de la barra del navegador en celular acompaña al fondo de cada tema (ver globals.css).
+// El tema por defecto es el claro: el color de la barra del navegador en celular acompana a su fondo.
 export const viewport: Viewport = {
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#fcf6f6" },
-    { media: "(prefers-color-scheme: dark)", color: "#101a15" },
-  ],
+  themeColor: "#fcf6f6",
 };
 
 export function generateStaticParams() {
