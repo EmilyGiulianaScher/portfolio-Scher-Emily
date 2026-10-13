@@ -57,7 +57,7 @@
         "summary": "Online catalog for a woodworking shop in Corrientes, with products by category and direct contact through WhatsApp.",
         "problem": "Showing the shop’s products in a place of its own and making it easy for customers to ask through WhatsApp.",
         "role": "I built the frontend, in a repository of my own: products by category, search and contact through WhatsApp. The backend runs on Google AppSheet, where the products are managed.",
-        "imageAlt": "Carpintería San José catalog with wooden furniture filterable by category",
+        "imageAlt": "Carpintería San José home page with the headline Handmade wooden furniture, made to measure, and a wooden desk",
         "visit": "Visit site"
       }
     }
